@@ -1,8 +1,8 @@
 {
   "name": "@sir_koty/json-extractor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this library make easy the way to extract property into a json object",
-  "main": "index.js",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
@@ -12,6 +12,10 @@
     "lint": "tslint -p tsconfig.json"
   },
   "author": "bleukoty@gmail.com",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/bleukoty/json-extractor.git"
+  },
   "directories": {
     "lib": "lib"
   },
